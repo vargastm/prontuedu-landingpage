@@ -99,7 +99,7 @@ main {
 	color: #008578;
 }
 
-.slider-button {
+#slider-button {
 	margin-top: 15px;
 	width: 20%;
 	float: left;
@@ -112,7 +112,7 @@ main {
 	border-radius: 10px;
 	min-width: 255px;
 }
-.slider-button:hover {
+#slider-button:hover {
 	transition: all 0.2s;
 	background-color: #00554c;
 }
@@ -207,13 +207,13 @@ main {
 	height: 40px;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	padding: 0 65px;
 }
 
 .footer p {
 	color: #ffffff;
-	text-align: right;
+	text-align: left;
 }
 
 .footer a {
