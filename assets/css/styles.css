@@ -112,10 +112,12 @@ main {
 	border-radius: 10px;
 	min-width: 255px;
 }
+
 #slider-button:hover {
 	transition: all 0.2s;
 	background-color: #00554c;
 }
+
 /* - SOBRE - */
 .about {
 	text-align: center;

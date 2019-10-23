@@ -37,7 +37,7 @@
 }
 
 .md-show {
-	visibility: visible;
+	visibility: visible !important;
 }
 
 .md-overlay {
@@ -96,6 +96,6 @@
     border: 1px solid black;
 }
 .md-content {
-    height: 800px;
+    max-height: 80vh;
     overflow-y: auto;
 }
